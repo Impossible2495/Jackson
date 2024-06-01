@@ -1,0 +1,14 @@
+:root {
+  --primary-color: #FFFFFF;
+  --main-text-color: #0f0f0f;
+  --blue-color: #229ED9;
+  --light-blue-color: #2AABEE;
+
+}
+
+body {
+  max-width: 1920px;
+  background-color: var(--primary-color);
+  font-family: "Roboto Flex", Arial, sans-serif;
+  color: var(--main-text-color);
+}
