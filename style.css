@@ -1,14 +1,49 @@
 :root {
   --primary-color: #FFFFFF;
-  --main-text-color: #0f0f0f;
+  --main-text-color: #111;
   --blue-color: #229ED9;
   --light-blue-color: #2AABEE;
+
 
 }
 
 body {
   max-width: 1920px;
   background-color: var(--primary-color);
-  font-family: "Roboto Flex", Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
   color: var(--main-text-color);
 }
+
+.header_area {
+  font-style: normal;
+  font-weight: 500;
+}
+
+.main_area {
+  background-color: var(--primary-color);
+  color: var(--main-text-color);
+}
+
+.heading_main {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 42px;
+  line-height: 130%;
+  color: #111;
+}
+
+.section_info {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  color: #657791;
+}
+
+
+/* 
+    font-style: normal;
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 130%;
+    color: #111; */
