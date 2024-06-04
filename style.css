@@ -1,10 +1,8 @@
 :root {
-  --primary-color: #FFFFFF;
+  --primary-color: #ffffff;
   --main-text-color: #111;
-  --blue-color: #229ED9;
-  --light-blue-color: #2AABEE;
-
-
+  --blue-color: #229ed9;
+  --light-blue-color: #2aabee;
 }
 
 body {
@@ -40,6 +38,15 @@ body {
   color: #657791;
 }
 
+.main_button {
+  background-color: var(--light-blue-color);
+  border-color: var(--light-blue-color);
+  color: var(--primary-color);
+}
+
+.light-blue {
+  color: var(--light-blue-color);
+}
 
 /* 
     font-style: normal;
