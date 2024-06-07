@@ -17,6 +17,16 @@ body {
   font-weight: 500;
 }
 
+.brand_name {
+  font-size: 48px;
+}
+
+@media (max-width: 574px) {
+  .brand_name {
+    font-size: 24px;
+  }
+}
+
 .main_area {
   background-color: var(--primary-color);
   color: var(--main-text-color);
@@ -29,6 +39,17 @@ body {
   line-height: 130%;
   color: #111;
 }
+@media (max-width: 574px) {
+  .heading_main {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 766px) {
+  .heading_main {
+    font-size: 32px;
+  }
+}
 
 .section_info {
   font-style: normal;
@@ -36,6 +57,18 @@ body {
   font-size: 24px;
   line-height: 130%;
   color: #657791;
+}
+
+@media (max-width: 574px) {
+  .section_info {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 574px) {
+  .section_info {
+    font-size: 20px;
+  }
 }
 
 .main_button {
